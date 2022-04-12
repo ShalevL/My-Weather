@@ -2,7 +2,7 @@ My Weather Application.
 
 React & Redux.
 
-Design with Material UI & React Bootstrap.
+Design with React Bootstrap.
 
 installation instructions
 1. Download zip and extract project folder
