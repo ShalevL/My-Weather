@@ -1,0 +1,17 @@
+.nextFiveDaysContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.nextFiveDaysCondition {
+  color: orange;
+}
+
+.cardGroup {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 25px;
+  padding: 10px 10px;
+}

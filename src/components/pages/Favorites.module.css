@@ -1,0 +1,18 @@
+.mainContainer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+}
+
+.daysContainer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+}
+
+.cardGroup {
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  align-items: center;
+}

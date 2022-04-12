@@ -1,0 +1,22 @@
+.topConteiner {
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  display: grid;
+}
+
+.bottomConteiner {
+  text-align: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todayAndFav {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}

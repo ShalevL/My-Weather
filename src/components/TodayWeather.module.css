@@ -1,0 +1,6 @@
+.dropShadow {
+  width: 400px;
+  height: 250px;
+  margin: 30px auto 0;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
