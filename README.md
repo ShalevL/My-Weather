@@ -1,5 +1,6 @@
-My Weather React Application. 
+My Weather Application. 
 
+React & Redux.
 Design with Material UI & React Bootstrap.
 
 installation instructions
