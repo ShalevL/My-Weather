@@ -1,8 +1,6 @@
-My Weather Application. 
+My-Weather By Shalev Lazarof. 
 
-React & Redux.
-
-Design with React Bootstrap.
+React, Redux & Bootstrap.
 
 installation instructions
 1. Download zip and extract project folder
