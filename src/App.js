@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 import { fetchWeatherData } from "../src/components/store/index";
 import { useDispatch } from "react-redux";
-import { API_KEY } from "../src/components/store/index";
+import { ACCU_WEATHER_API_KEY } from "../src/components/store/index";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -51,7 +51,7 @@ function App() {
       navigator.geolocation.getCurrentPosition(function (position) {
         const url =
           "http://dataservice.accuweather.com/locations/v1/cities/geoposition/search";
-        const query = `?apikey=${API_KEY}&q=${position.coords.latitude}%2C${position.coords.longitude}&language=en-us&details=false&toplevel=false"`;
+        const query = `?apikey=${ACCU_WEATHER_API_KEY}&q=${position.coords.latitude}%2C${position.coords.longitude}&language=en-us&details=false&toplevel=false"`;
         fetch(url + query)
           .then(function (response) {
             if (!response.ok) {

@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import Select from "react-select";
 import { fetchWeatherData } from "../components/store/index";
 import { useState } from "react";
-import { API_KEY } from "../components/store/index";
+import { ACCU_WEATHER_API_KEY } from "../components/store/index";
 
 function SearchInput(props) {
   const dispatch = useDispatch();
@@ -10,7 +10,7 @@ function SearchInput(props) {
   function inputChangeHandler(searchInput) {
     const url =
       "http://dataservice.accuweather.com/locations/v1/cities/autocomplete/";
-    const query = `?apikey=${API_KEY}&q=${searchInput}&language=en-us`;
+    const query = `?apikey=${ACCU_WEATHER_API_KEY}&q=${searchInput}&language=en-us`;
     fetch(url + query)
       .then(function (response) {
         if (!response.ok) {

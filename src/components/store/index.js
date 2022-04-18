@@ -1,6 +1,6 @@
 import { createSlice, configureStore } from "@reduxjs/toolkit";
 
-export const API_KEY = "";
+export const ACCU_WEATHER_API_KEY = "";
 
 // ************************************* REDUX SLICES ************************************* //
 const currentSelectedCitySlice = createSlice({
@@ -91,11 +91,11 @@ export function fetchWeatherData(selectedCity, isFavorite) {
     let nextFiveDaysData = {};
 
     const dayUrl = "http://dataservice.accuweather.com/currentconditions/v1/";
-    const dayQuery = `${selectedCity.value.cityKey}?apikey=${API_KEY}`;
+    const dayQuery = `${selectedCity.value.cityKey}?apikey=${ACCU_WEATHER_API_KEY}`;
 
     const nextFiveUrl =
       "http://dataservice.accuweather.com/forecasts/v1/daily/5day/";
-    const nextFiveQuery = `${selectedCity.value.cityKey}?apikey=${API_KEY}`;
+    const nextFiveQuery = `${selectedCity.value.cityKey}?apikey=${ACCU_WEATHER_API_KEY}`;
 
     fetch(dayUrl + dayQuery)
       .then(function (response) {
