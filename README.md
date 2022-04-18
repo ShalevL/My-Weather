@@ -20,4 +20,9 @@ installation instructions
 ![](https://github.com/ShalevL/My-Weather/blob/main/9.png)
 ![](https://github.com/ShalevL/My-Weather/blob/main/10.png)
 ![](https://github.com/ShalevL/My-Weather/blob/main/11.png)
+![](https://github.com/ShalevL/My-Weather/blob/main/12.png)
+![](https://github.com/ShalevL/My-Weather/blob/main/13.png)
+![](https://github.com/ShalevL/My-Weather/blob/main/14.png)
+![](https://github.com/ShalevL/My-Weather/blob/main/15.png)
+![](https://github.com/ShalevL/My-Weather/blob/main/16.png)
 
