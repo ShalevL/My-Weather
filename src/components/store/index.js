@@ -1,6 +1,6 @@
 import { createSlice, configureStore } from "@reduxjs/toolkit";
 
-export const API_KEY = "R5iVJfxhOQWqV0NE4hWnVSBR5jBQGeZG";
+export const API_KEY = "";
 
 // ************************************* REDUX SLICES ************************************* //
 const currentSelectedCitySlice = createSlice({

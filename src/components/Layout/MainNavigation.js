@@ -8,7 +8,7 @@ function MainNavigation() {
     <div>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand>My Weather</Navbar.Brand>
+          <Navbar.Brand>My-Weather By Shalev Lazarof</Navbar.Brand>
           <Nav className="me-auto">
             <LinkContainer to="/homepage">
               <Nav.Link to="/homepage">Home</Nav.Link>
