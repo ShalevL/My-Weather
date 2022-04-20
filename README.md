@@ -1,6 +1,10 @@
 My-Weather By Shalev Lazarof. 
 
-React, Redux & Bootstrap.
+https://my-weather-shalev-lazarof.netlify.app/homepage
+
+View the weather condition for today and the next 5 days for your current location or by a city search, add & remove favorites locations.
+
+Frameworks & Design: React | Redux | Bootstrap
 
 installation instructions
 1. Download zip and extract project folder
